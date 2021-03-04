@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f3ab1136-b534-4e69-87af-54b7f8091c39" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="JupyterTrust" id="5e18a26c-7265-4c0e-8de5-c62edc03e37d" />
+  <component name="ProjectId" id="1lKadvULL1jrOkvLv1jQ1ZpLNAG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="Z:\work12\PolypSegmentation\configs" />
+      <recent name="$PROJECT_DIR$/configs" />
+      <recent name="Z:\work12\PolypSegmentation\datasets" />
+      <recent name="Z:\work12\PolypSegmentation\models" />
+      <recent name="Z:\work12\PolypSegmentation\checkpoints\PraNetRes2Net_CVC" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="Z:\work12\PolypSegmentation\models" />
+      <recent name="Z:\disk\zyp\work12\PolypSegmentation\models\modules" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.train">
+    <configuration name="SegNet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ACSNet" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/SegNet.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="config" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ACSNet" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/config.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PolypSegmentation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.train" />
+        <item itemvalue="Python.SegNet" />
+        <item itemvalue="Python.config" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f3ab1136-b534-4e69-87af-54b7f8091c39" name="Default Changelist" comment="" />
+      <created>1607348328128</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607348328128</updated>
+      <workItem from="1607348329268" duration="4572000" />
+      <workItem from="1607354954430" duration="382000" />
+      <workItem from="1607355435889" duration="2102000" />
+      <workItem from="1607391216872" duration="10913000" />
+      <workItem from="1607432470416" duration="35000" />
+      <workItem from="1607432664810" duration="32457000" />
+      <workItem from="1607651595234" duration="3798000" />
+      <workItem from="1607675646795" duration="287000" />
+      <workItem from="1607675959668" duration="1205000" />
+      <workItem from="1607678673898" duration="596000" />
+      <workItem from="1607679793655" duration="21000" />
+      <workItem from="1607679826020" duration="15083000" />
+      <workItem from="1607771004324" duration="617000" />
+      <workItem from="1607912614017" duration="1551000" />
+      <workItem from="1608455806862" duration="3324000" />
+      <workItem from="1608518012920" duration="6624000" />
+      <workItem from="1608776068375" duration="606000" />
+      <workItem from="1608799590660" duration="9470000" />
+      <workItem from="1609148678939" duration="77000" />
+      <workItem from="1609149776041" duration="4566000" />
+      <workItem from="1610896025195" duration="6036000" />
+      <workItem from="1610958629991" duration="1027000" />
+      <workItem from="1610960019774" duration="2663000" />
+      <workItem from="1610965835041" duration="4843000" />
+      <workItem from="1610976722818" duration="34000" />
+      <workItem from="1610978686356" duration="2582000" />
+      <workItem from="1611106705159" duration="6375000" />
+      <workItem from="1611924836789" duration="592000" />
+      <workItem from="1612014082810" duration="610000" />
+      <workItem from="1612101704067" duration="62000" />
+      <workItem from="1612496520382" duration="18390000" />
+      <workItem from="1612687231756" duration="865000" />
+      <workItem from="1612688246257" duration="52000" />
+      <workItem from="1612788565535" duration="12268000" />
+      <workItem from="1613295981758" duration="2531000" />
+      <workItem from="1614850242422" duration="1125000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1303" y="230" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607478337143">
+      <screen x="75" y="0" width="2218" height="960" />
+    </state>
+    <state x="1303" y="230" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1005.0.645.1280/75.0.2218.960@75.0.2218.960" timestamp="1607478337143" />
+    <state x="87" y="187" width="664" height="652" key="FileChooserDialogImpl" timestamp="1613298273906">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="175" y="171" width="438" height="695" key="FileChooserDialogImpl/-1005.0.645.1280/75.0.2218.960@75.0.2218.960" timestamp="1609163555800" />
+    <state x="163" y="171" key="FileChooserDialogImpl/-1006.0.790.1536/62.0.2231.960@62.0.2231.960" timestamp="1610976745311" />
+    <state x="87" y="187" key="FileChooserDialogImpl/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1613298273906" />
+    <state x="635" y="216" key="FileChooserDialogImpl/0.0.1707.920@0.0.1707.920" timestamp="1607355442316" />
+    <state x="90" y="274" width="664" height="950" key="FileChooserDialogImpl/0.40.2000.1311@0.40.2000.1311" timestamp="1607678704895" />
+    <state x="95" y="53" width="664" height="652" key="FileChooserDialogImpl/0.40.2100.1311@0.40.2100.1311" timestamp="1608115744951" />
+    <state x="113" y="59" key="FileChooserDialogImpl/0.40.2500.1911@0.40.2500.1911" timestamp="1607782101949" />
+    <state x="122" y="59" key="FileChooserDialogImpl/0.40.2700.1911@0.40.2700.1911" timestamp="1608364366259" />
+    <state width="1877" height="284" key="GridCell.Tab.0.bottom" timestamp="1612515467449">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1607" height="313" key="GridCell.Tab.0.bottom/-1005.0.645.1280/75.0.2218.960@75.0.2218.960" timestamp="1607422302285" />
+    <state width="1877" height="284" key="GridCell.Tab.0.bottom/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1612515467449" />
+    <state width="1311" height="247" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1607354397059" />
+    <state width="1877" height="284" key="GridCell.Tab.0.center" timestamp="1612515467449">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1607" height="313" key="GridCell.Tab.0.center/-1005.0.645.1280/75.0.2218.960@75.0.2218.960" timestamp="1607422302285" />
+    <state width="1877" height="284" key="GridCell.Tab.0.center/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1612515467449" />
+    <state width="1311" height="247" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1607354397058" />
+    <state width="1877" height="284" key="GridCell.Tab.0.left" timestamp="1612515467448">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1607" height="313" key="GridCell.Tab.0.left/-1005.0.645.1280/75.0.2218.960@75.0.2218.960" timestamp="1607422302285" />
+    <state width="1877" height="284" key="GridCell.Tab.0.left/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1612515467448" />
+    <state width="1311" height="247" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1607354397058" />
+    <state width="1877" height="284" key="GridCell.Tab.0.right" timestamp="1612515467449">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1607" height="313" key="GridCell.Tab.0.right/-1005.0.645.1280/75.0.2218.960@75.0.2218.960" timestamp="1607422302285" />
+    <state width="1877" height="284" key="GridCell.Tab.0.right/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1612515467449" />
+    <state width="1311" height="247" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1607354397059" />
+    <state width="1607" height="313" key="GridCell.Tab.1.bottom" timestamp="1607422302285">
+      <screen x="75" y="0" width="2218" height="960" />
+    </state>
+    <state width="1607" height="313" key="GridCell.Tab.1.bottom/-1005.0.645.1280/75.0.2218.960@75.0.2218.960" timestamp="1607422302285" />
+    <state width="1311" height="297" key="GridCell.Tab.1.bottom/0.0.1707.920@0.0.1707.920" timestamp="1607354367453" />
+    <state width="1607" height="313" key="GridCell.Tab.1.center" timestamp="1607422302285">
+      <screen x="75" y="0" width="2218" height="960" />
+    </state>
+    <state width="1607" height="313" key="GridCell.Tab.1.center/-1005.0.645.1280/75.0.2218.960@75.0.2218.960" timestamp="1607422302285" />
+    <state width="1311" height="297" key="GridCell.Tab.1.center/0.0.1707.920@0.0.1707.920" timestamp="1607354367453" />
+    <state width="1607" height="313" key="GridCell.Tab.1.left" timestamp="1607422302285">
+      <screen x="75" y="0" width="2218" height="960" />
+    </state>
+    <state width="1607" height="313" key="GridCell.Tab.1.left/-1005.0.645.1280/75.0.2218.960@75.0.2218.960" timestamp="1607422302285" />
+    <state width="1311" height="297" key="GridCell.Tab.1.left/0.0.1707.920@0.0.1707.920" timestamp="1607354367452" />
+    <state width="1607" height="313" key="GridCell.Tab.1.right" timestamp="1607422302285">
+      <screen x="75" y="0" width="2218" height="960" />
+    </state>
+    <state width="1607" height="313" key="GridCell.Tab.1.right/-1005.0.645.1280/75.0.2218.960@75.0.2218.960" timestamp="1607422302285" />
+    <state width="1311" height="297" key="GridCell.Tab.1.right/0.0.1707.920@0.0.1707.920" timestamp="1607354367453" />
+    <state x="591" y="120" width="916" height="708" key="SettingsEditor" timestamp="1612497490100">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="758" y="110" width="1119" height="707" key="SettingsEditor/-1005.0.645.1280/75.0.2218.960@75.0.2218.960" timestamp="1607432836130" />
+    <state x="591" y="120" width="916" height="708" key="SettingsEditor/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1612497490100" />
+    <state x="526" y="105" key="SettingsEditor/0.0.1707.920@0.0.1707.920" timestamp="1607355487008" />
+    <state x="770" y="259" key="SettingsEditor/0.40.2500.1911@0.40.2500.1911" timestamp="1607775804330" />
+    <state x="832" y="258" width="1361" height="907" key="SettingsEditor/0.40.2700.1911@0.40.2700.1911" timestamp="1607357647657" />
+    <state x="924" y="394" key="com.jetbrains.plugins.remotesdk.ui.RemoteMappingsConfiguration" timestamp="1612497487981">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1142" y="360" key="com.jetbrains.plugins.remotesdk.ui.RemoteMappingsConfiguration/-1005.0.645.1280/75.0.2218.960@75.0.2218.960" timestamp="1607432834420" />
+    <state x="924" y="394" key="com.jetbrains.plugins.remotesdk.ui.RemoteMappingsConfiguration/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1612497487981" />
+    <state x="821" y="345" key="com.jetbrains.plugins.remotesdk.ui.RemoteMappingsConfiguration/0.0.1707.920@0.0.1707.920" timestamp="1607354795462" />
+    <state x="673" y="214" width="589" height="648" key="ftp.server.browser" timestamp="1607432833525">
+      <screen x="75" y="0" width="2218" height="960" />
+    </state>
+    <state x="673" y="214" width="589" height="648" key="ftp.server.browser/-1005.0.645.1280/75.0.2218.960@75.0.2218.960" timestamp="1607432833525" />
+    <state x="460" y="205" key="ftp.server.browser/0.0.1707.920@0.0.1707.920" timestamp="1607354794484" />
+    <state x="1257" y="141" width="672" height="676" key="search.everywhere.popup" timestamp="1607756395044">
+      <screen x="75" y="0" width="2218" height="960" />
+    </state>
+    <state x="1257" y="141" width="672" height="676" key="search.everywhere.popup/-1005.0.645.1280/75.0.2218.960@75.0.2218.960" timestamp="1607756395044" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utils/transform.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PolypSegmentation$train.coverage" NAME="train Coverage Results" MODIFIED="1612515456789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

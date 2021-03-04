@@ -1,0 +1,25 @@
+# data
+dataset: 'CVC'
+root: './datasets/cvc612/'
+train_data_dir: 'train'
+valid_data_dir: 'val'
+test_data_dir: 'cvc612'
+
+# train
+nEpoch: 500
+batch_size: 8
+num_workers: 8
+use_gpu: True
+model: 'ACSNet'
+loss: 'DeepSupervisionLoss'
+lr: 0.001
+weight_decay: 0.00001
+mt: 0.9
+power: 0.9
+nclasses: 1
+multiscale: False
+clip_gradient: False
+
+# validation & test
+val_period: 0  # 0 for disable validation
+testsize : 352
