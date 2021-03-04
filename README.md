@@ -2,7 +2,7 @@
 
 ##  Introduction
 
-This repository is forkd from [ACSNet](https://github.com/ReaFly/ACSNet). I have extended the code to support more models and make it easier to use.
+This repository is forked from [ACSNet](https://github.com/ReaFly/ACSNet). I have extended the code to support more models and make it easier to use.
 On top of the original code, I added some function: progress bar display, log logging, multi-scale training for all networks, etc.
 
 Currently supported models:
